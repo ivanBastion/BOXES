@@ -1,0 +1,48 @@
+.box {
+    width: 201px;
+    height: 201px;
+    color: rgb(0, 0, 0);
+    border: 10px solid;
+
+}
+
+.super_box {
+    width: 884px;
+    height: 221px;
+    color: rgba(245, 9, 9, 0.843);
+    border: 0px solid;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.line2 {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+
+}
+
+.box:nth-child(odd) {
+    background: rgb(4, 244, 196);
+}
+
+.box:nth-child(even) {
+    background: blueviolet;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+
+}
